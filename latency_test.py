@@ -38,9 +38,11 @@ def test_code_snippet(filepath):
     except Exception as e:
         return -1, str(e)
 
+
 files = [
     ("Python Verbose", "uc1_verbose.py"),
     ("Python Minified", "uc1_short.py"),
+    ("Python Normalized", "uc1_normalized.py"),
     ("JS Verbose", "uc2_verbose.js"),
     ("JS Minified", "uc2_short.js")
 ]
